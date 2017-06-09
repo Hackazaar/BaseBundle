@@ -1,0 +1,21 @@
+{
+    "name": "hackazaar/base-bundle",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "description": "Hackazaar BaseBundle",
+    "require": {
+        "sonata-project/admin-bundle": "^3.18",
+        "sonata-project/doctrine-orm-admin-bundle": "^3.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hackazaar\\BaseBundle\\": ""
+        }
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    }
+}
