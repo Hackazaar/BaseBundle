@@ -8,7 +8,6 @@ new Knp\Bundle\MenuBundle\KnpMenuBundle(),
 new Sonata\DoctrineORMAdminBundle\SonataDoctrineORMAdminBundle(),
 new Sonata\AdminBundle\SonataAdminBundle(),
 new Doctrine\Bundle\MigrationsBundle\DoctrineMigrationsBundle(),
-new Doctrine\Bundle\FixturesBundle\DoctrineFixturesBundle(),
 new Snc\RedisBundle\SncRedisBundle(),
 
 ## dev/test
